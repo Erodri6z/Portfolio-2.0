@@ -1,11 +1,16 @@
 
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
+
+import Nav from './component/Nav/Nav';
 
 function App() {
   return (
-    <div>
-      <h1>This will be the nav bar when ever i get to it</h1>
-    </div>
+    <main>
+      <Nav />
+
+    </main>
   )
 }
 
