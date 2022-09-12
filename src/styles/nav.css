@@ -8,8 +8,8 @@ ul {
   padding: 0;
   width: 9%;
   background-color: #909090;
-  height: 100%;
-  position: fixed; 
+  height: 110%; 
+  position: fixed;
   overflow: auto;
 }
 
@@ -17,9 +17,6 @@ li {
   margin-top: 50px;
 }
 
-nav{
-  position: absolute;
-}
 .nav-item {
   color:white;
   text-decoration: none;
