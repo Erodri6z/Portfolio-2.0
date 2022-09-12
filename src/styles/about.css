@@ -1,3 +1,17 @@
 .about-page{
   margin-left: 10%;
 }
+
+.about-page h1{
+  font-weight: 400;
+  padding-top: 10%;
+  padding-left: 12px
+}
+
+.about-page p {
+  font-size: large;
+  padding-right: 50%;
+  padding-left: 12px
+}
+
+
