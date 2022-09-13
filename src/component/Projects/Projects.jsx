@@ -35,7 +35,10 @@ const Projects = () => {
   ]
   return(
     <div className="projects-page">
-      <>
+      <h1>Projects</h1>
+      <hr />
+      <div className='projects'>
+        <>
         {projectData.map(projectData =>
           <div className="card" style={{ width: '18rem' }} key={projectData.title}>
             <a href={projectData.deployment}>
@@ -44,11 +47,14 @@ const Projects = () => {
           <div className="card-body">
             <h5 className="card-title">{projectData.title}</h5>
             <p className="card-text">{projectData.description}</p>
-            <a href={projectData.github} className="btn btn-primary">Github</a>
+            <a href={projectData.github} className="btn btn-danger">Github</a>
+            <a href={projectData.deployment} className="btn btn-dark">Deployment</a>
             </div>
           </div>
           )}
-      </>
+        </>
+      </div>
+      
     </div>
   )
 }
