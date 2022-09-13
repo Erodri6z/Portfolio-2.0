@@ -8,27 +8,27 @@ const Nav = () => {
         <ul>
           <li>
             <NavLink className="nav-item" to="/" >
-              <span class="material-symbols-outlined">home</span>
+              <span className="material-symbols-outlined">home</span>
               </NavLink>
             </li>
           <li>
             <NavLink className="nav-item" to="/Info" >
-              <span class="material-symbols-outlined">info</span>
+              <span className="material-symbols-outlined">info</span>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Skill">
-              <span class="material-symbols-outlined">code</span>
+              <span className="material-symbols-outlined">code</span>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Projects">
-              <span class="material-symbols-outlined">web</span>
+              <span className="material-symbols-outlined">web</span>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Contact">
-              <span class="material-symbols-outlined">contact_phone</span>
+              <span className="material-symbols-outlined">contact_phone</span>
             </NavLink>
           </li>
         </ul>
