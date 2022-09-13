@@ -6,7 +6,8 @@ ul {
   list-style-type: none;
   margin: -22px 0 0 0;
   padding: 0;
-  width: 9%;
+  width: 100px;
+  min-width: fit-content;
   background-color: #909090;
   height: 110%; 
   position: fixed;
@@ -19,5 +20,11 @@ li {
 
 .nav-item {
   color:white;
+  padding-right: 10px;
+  font-size: 10px;
   text-decoration: none;
+}
+
+.nav-item:hover {
+  color:rgb(3, 255, 251)
 }

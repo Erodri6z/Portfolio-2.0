@@ -25,7 +25,7 @@ const Skill = () => {
             <img src="https://img.shields.io/badge/-Express-333333?style=flat&logo=express" alt="express" id="express" />
           </div>
           <div>
-            <img src="https://img.shields.io/badge/-mongoDB-333333?logo=mongodb" alt="mongodb" id="mongodb" />
+            <img src="https://img.shields.io/badge/-MongoDB-333333?logo=mongodb" alt="mongodb" id="mongodb" />
           </div>
           <div>
             <img src="https://img.shields.io/badge/-Github-333333?logo=github" alt="github" id="github-badge" />
@@ -53,6 +53,9 @@ const Skill = () => {
           </div>
           <div>
             <img src="https://img.shields.io/badge/-Git-333333?logo=git" alt="git" id="git"/>
+          </div>
+          <div>
+            <img src="" alt="" />
           </div>
         </div>
       </div>
