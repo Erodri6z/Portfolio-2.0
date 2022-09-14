@@ -12,6 +12,7 @@ ul {
   height: 110%; 
   position: fixed;
   overflow: auto;
+  border: solid #000000 2px;
 }
 
 li {
@@ -26,5 +27,14 @@ li {
 }
 
 .nav-item:hover {
-  color:rgb(3, 255, 251)
+  color:rgb(0, 0, 0)
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #909090;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
 }

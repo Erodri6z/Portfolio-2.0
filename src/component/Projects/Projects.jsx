@@ -36,7 +36,6 @@ const Projects = () => {
   return(
     <div className="projects-page">
       <h1>Projects</h1>
-      <hr />
       <div className='projects'>
         <>
         {projectData.map(projectData =>
