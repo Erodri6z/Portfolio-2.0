@@ -13,8 +13,8 @@ const Nav = () => {
           <li>
             <NavLink className="nav-item" to="/" >
               <span className="material-symbols-outlined">home</span>
-              </NavLink>
-            </li>
+            </NavLink>
+          </li>
           <li>
             <NavLink className="nav-item" to="/Info" >
               <span className="material-symbols-outlined">info</span>
