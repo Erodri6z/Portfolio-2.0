@@ -17,3 +17,18 @@
   padding-left: 12px;
   font-style: italic;
 }
+@media only screen and (max-width: 750px) {
+  .landing-page {
+    margin-left: 0;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  #landing-title{
+    padding-left: 0px;
+  }
+
+  #landing-text {
+    padding-left: 0px;
+  }
+}
