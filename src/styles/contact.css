@@ -1,3 +1,38 @@
 .contact-page {
   margin-left: 10%;
 }
+#contact-me{
+  font-weight: 400;
+  padding-left: 40%;
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+.contact-links{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-icons{
+  text-align: center;
+}
+
+.contact-icons h1 {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-icons a:hover {
+  color: black;
+  font-style: italic;
+}
+
+.contact-icons h1:hover{
+  color: black;
+  font-size: 100px;
+}

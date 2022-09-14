@@ -20,7 +20,7 @@ const Contact = () => {
   }]
   return(
     <div className="contact-page">
-      <h1>Contact Me</h1>
+      <h1 id="contact-me">Contact Me</h1>
       <div className='contact-links'>
         <>
         {contactInfo.map(icon => 
