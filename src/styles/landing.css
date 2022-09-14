@@ -1,5 +1,10 @@
 .landing-page{
   margin-left: 10%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
 }
 
 #landing-title{
