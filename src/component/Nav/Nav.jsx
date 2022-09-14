@@ -2,6 +2,10 @@ import { NavLink } from "react-router-dom"
 import '../../styles/nav.css'
 
 const Nav = () => {
+  const toggleMode = () => {
+    const bodyMode = document.querySelector('body')
+    bodyMode.classList.toggle('dark')
+  }
   return (
     <nav>
       <div id="nav">
@@ -30,6 +34,11 @@ const Nav = () => {
             <NavLink className="nav-item" to="/Contact">
               <span className="material-symbols-outlined">contact_phone</span>
             </NavLink>
+          </li>
+          <li>
+            <button id="toggle-btn" onClick={toggleMode} >
+              <span className="material-symbols-outlined">wb_sunny</span>
+            </button>
           </li>
         </ul>
       </div>

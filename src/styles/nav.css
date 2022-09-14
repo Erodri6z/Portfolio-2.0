@@ -8,7 +8,7 @@ ul {
   padding: 0;
   width: 100px;
   min-width: fit-content;
-  background-color: #909090;
+  background-color: var(--nav-bg);
   height: 110%; 
   position: fixed;
   overflow: auto;
@@ -24,6 +24,16 @@ li {
   padding-right: 10px;
   font-size: 10px;
   text-decoration: none;
+}
+
+#toggle-btn {
+  padding:0;
+  color: rgb(255, 255, 255);
+  background-color: #90909000;
+  border:0px;
+}
+#toggle-btn:hover {
+  color: rgb(0, 0, 0)
 }
 
 .nav-item:hover {
@@ -47,3 +57,4 @@ li {
     opacity: 1;
   }
 }
+
