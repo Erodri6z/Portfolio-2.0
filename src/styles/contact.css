@@ -41,3 +41,24 @@
   color: black;
   font-size: 100px;
 }
+
+@media only screen and (max-width: 750px) {
+  .contact-page{
+    margin-left: 0px;
+    padding-top: 20%;
+  }
+  #contact-me{
+    padding-left: 0px;
+    text-align: center;
+  }
+  .contact-links{
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(2,20vmin);
+    grid-template-rows: repeat(2,30vmin)
+    
+  }
+  .contact-icons h3{
+    display: none;
+  }
+}
