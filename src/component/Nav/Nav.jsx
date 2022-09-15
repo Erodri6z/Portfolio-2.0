@@ -6,7 +6,19 @@ const Nav = () => {
     const bodyMode = document.querySelector('body')
     bodyMode.classList.toggle('dark')
   }
-  return (
+  const getTime = () => {
+    const time = new Date().getHours()
+    const mode = document.querySelector('body')
+    if (time >= 16){
+      mode.classList.add('dark')
+    }else if(time <= 4) {
+      mode.classList.add('dark')
+    }else{
+      mode.classList.remove('dark')
+    }
+  }
+  getTime()
+  return ( 
     <nav>
       <div id="nav">
         <ul>
@@ -37,8 +49,11 @@ const Nav = () => {
           </li>
           <li>
             <button id="toggle-btn" onClick={toggleMode} >
-              <span className="material-symbols-outlined">wb_sunny</span>
+              <span id='sun'className="material-symbols-outlined">wb_sunny</span>
+              <span id='moon'className="material-symbols-outlined">dark_mode</span>
             </button>
+          </li>
+          <li>
           </li>
         </ul>
       </div>
