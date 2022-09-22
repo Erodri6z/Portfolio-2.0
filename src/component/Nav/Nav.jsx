@@ -9,7 +9,7 @@ const Nav = () => {
   const getTime = () => {
     const time = new Date().getHours()
     const mode = document.querySelector('body')
-    if (time >= 16){
+    if (time >= 18){
       mode.classList.add('dark')
     }else if(time <= 4) {
       mode.classList.add('dark')
