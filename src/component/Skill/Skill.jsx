@@ -55,7 +55,7 @@ const Skill = () => {
             <img src="https://img.shields.io/badge/-Git-333333?logo=git" alt="git" id="git"/>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="https://img.shields.io/badge/-Next.js-333333?logo=next.js" alt="next" id='next' />
           </div>
         </div>
       </div>
