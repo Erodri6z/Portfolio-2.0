@@ -22,7 +22,7 @@ const Skill = () => {
             <img src="https://img.shields.io/badge/-Python3-333333?style=flat&logo=python" alt="python" id="python" />
           </div>
           <div>
-            <img src="https://img.shields.io/badge/-Express-333333?style=flat&logo=express" alt="express" id="express" />
+            <img src="https://img.shields.io/badge/-Express.js-333333?style=flat&logo=express" alt="express" id="express" />
           </div>
           <div>
             <img src="https://img.shields.io/badge/-MongoDB-333333?logo=mongodb" alt="mongodb" id="mongodb" />
