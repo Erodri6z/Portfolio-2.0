@@ -16,7 +16,7 @@ const Skill = () => {
             <img src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=Javascript&logoColor=)" alt="javascript" id="javascript"/>
           </div>
           <div>
-            <img src="https://img.shields.io/badge/-React-333333?logo=react" alt="react" id="react" />
+            <img src="https://img.shields.io/badge/-React.js-333333?logo=react" alt="react" id="react" />
           </div>
           <div>
             <img src="https://img.shields.io/badge/-Python3-333333?style=flat&logo=python" alt="python" id="python" />
@@ -56,6 +56,9 @@ const Skill = () => {
           </div>
           <div>
             <img src="https://img.shields.io/badge/-Next.js-333333?logo=next.js" alt="next" id='next' />
+          </div>
+          <div>
+            <img src="https://img.shields.io/badge/-Sass-333333?logo=Sass" alt="sass" id="sass" />
           </div>
         </div>
       </div>
