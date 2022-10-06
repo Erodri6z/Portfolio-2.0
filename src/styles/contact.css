@@ -5,7 +5,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 1s;
-  height: 41.1rem;
+  height: 42.1rem;
 }
 #contact-me{
   font-weight: 400;
@@ -47,6 +47,7 @@
   .contact-page{
     margin-left: 0px;
     padding-top: 20%;
+    height: 50rem;
   }
   #contact-me{
     padding-left: 0px;
