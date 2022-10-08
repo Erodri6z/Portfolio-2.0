@@ -6,33 +6,34 @@
   animation-timing-function: ease-in;
   animation-duration: 1s;
   height: 41.1rem;
-}
-
-.about-page h1{
+  h1 {
   font-weight: 400;
   padding-top: 10%;
   padding-left: 12px
+  }
+  p {
+    font-size: large;
+    padding-right: 50%;
+    padding-left: 12px
+  }
 }
 
-.about-page p {
-  font-size: large;
-  padding-right: 50%;
-  padding-left: 12px
-}
+
+
 
 @media only screen and (max-width: 750px) {
   .about-page{
     margin-left: 0px;
-  }
-  .about-page h1 {
-    padding-top: 25%;
-    text-align: center;
-  }
-  .about-page p {
-    font-size: 14px;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
+    h1 {
+      padding-top: 25%;
+      text-align: center;
+    }
+    p {
+      font-size: 14px;
+      padding-right: 10px;
+      padding-left: 10px;
+      text-align: center;
+    }
   }
 }
 
