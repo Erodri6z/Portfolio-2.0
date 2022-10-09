@@ -1,4 +1,4 @@
-import '../../styles/contact.css'
+import '../../styles/contact.scss'
 
 const Contact = () => {
   const contactInfo = [{

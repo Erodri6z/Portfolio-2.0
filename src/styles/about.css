@@ -1,0 +1,39 @@
+.about-page {
+  margin-left: 13%;
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  height: 41.1rem;
+}
+.about-page h1 {
+  font-weight: 400;
+  padding-top: 10%;
+  padding-left: 12px;
+}
+.about-page p {
+  font-size: large;
+  padding-right: 50%;
+  padding-left: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+  .about-page {
+    margin-left: 0px;
+  }
+  .about-page h1 {
+    padding-top: 25%;
+    text-align: center;
+  }
+  .about-page p {
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=about.css.map */

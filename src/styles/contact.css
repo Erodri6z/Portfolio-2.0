@@ -1,66 +1,66 @@
 .contact-page {
   margin-left: 10%;
   opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1s;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   height: 42.1rem;
 }
-#contact-me{
+
+#contact-me {
   font-weight: 400;
   padding-left: 40%;
   padding-top: 70px;
   margin-bottom: 60px;
 }
-.contact-links{
+
+.contact-links {
   display: flex;
   justify-content: space-evenly;
 }
-
-.contact-icons{
+.contact-links .contact-icons {
   text-align: center;
 }
-
-.contact-icons h1 {
+.contact-links .contact-icons a {
+  text-decoration: none;
+  color: white;
+}
+.contact-links .contact-icons a :hover {
+  color: black;
+  font-style: italic;
+}
+.contact-links .contact-icons a h1 {
   font-size: 60px;
   color: white;
   text-decoration: none;
 }
-
-.contact-icons a {
-  text-decoration: none;
-  color: white;
-}
-
-.contact-icons a:hover {
-  color: black;
-  font-style: italic;
-}
-
-.contact-icons h1:hover{
+.contact-links .contact-icons a h1 :hover {
   color: black;
   font-size: 100px;
 }
 
 @media only screen and (max-width: 750px) {
-  .contact-page{
+  .contact-page {
     margin-left: 0px;
     padding-top: 20%;
     height: 50rem;
   }
-  #contact-me{
+  #contact-me {
     padding-left: 0px;
     text-align: center;
   }
-  .contact-links{
+  .contact-links {
     margin-top: 20%;
     display: grid;
-    grid-template-columns: repeat(2,20vmin);
-    grid-template-rows: repeat(2,30vmin)
-    
+    grid-template-columns: repeat(2, 20vmin);
+    grid-template-rows: repeat(2, 30vmin);
   }
-  .contact-icons h3{
+  .contact-icons h3 {
     display: none;
   }
-}
+}/*# sourceMappingURL=contact.css.map */

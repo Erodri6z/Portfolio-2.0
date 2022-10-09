@@ -1,0 +1,64 @@
+.contact-page {
+  margin-left: 10%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  height: 41.1rem;
+}
+#contact-me {
+  font-weight: 400;
+  padding-left: 40%;
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+.contact-links{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-icons {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+    :hover {
+      color: black;
+      font-style: italic;
+    }
+    h1 {
+      font-size: 60px;
+      color: white;
+      text-decoration: none;
+      :hover {
+        color: black;
+        font-size: 100px; 
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  .contact-page{
+    margin-left: 0px;
+    padding-top: 20%;
+    height: 50rem;
+  }
+  #contact-me{
+    padding-left: 0px;
+    text-align: center;
+  }
+  .contact-links{
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(2,20vmin);
+    grid-template-rows: repeat(2,30vmin)
+    
+  }
+  .contact-icons h3{
+    display: none;
+  }
+}
