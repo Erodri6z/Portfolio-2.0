@@ -23,7 +23,7 @@
   a {
     text-decoration: none;
     color: white;
-    :hover {
+    &:hover {
       color: black;
       font-style: italic;
     }
@@ -31,13 +31,25 @@
       font-size: 60px;
       color: white;
       text-decoration: none;
-      :hover {
-        color: black;
-        font-size: 100px; 
+      &:hover {
+        animation: iconsGrow 0.2s ease-in both;
+        font-size: 100px;
+        color: #000000; 
       }
     }
   }
 }
+
+@keyframes iconsGrow {
+  0% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 100px;
+  }
+}
+
+
 
 
 

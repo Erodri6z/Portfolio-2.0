@@ -1,4 +1,5 @@
 import '../../styles/contact.scss'
+import '../../styles/animations.scss'
 
 const Contact = () => {
   const contactInfo = [{
