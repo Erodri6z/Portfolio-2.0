@@ -5,12 +5,11 @@
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 1s;
-}
-
-.projects-page h1{
-  font-weight: 400;
-  padding-left: 40%;
-  padding-top: 30px;
+  h1{
+    font-weight: 400;
+    padding-left: 40%;
+    padding-top: 30px;
+  }
 }
 
 .projects{
@@ -18,6 +17,12 @@
   display: grid;
   grid-template-columns: repeat(3,50vmin);
   grid-gap: 20px;
+  img {
+    min-height: 155px;
+  }
+  p {
+    font-size: 12px;
+  }
 }
 
 .card {
@@ -26,18 +31,12 @@
   background-color: lightslategray;
 }
 
-.projects img {
-  min-height: 155px;
-}
 
-.projects p {
-  font-size: 12px;
-}
 .btn{
   margin-left: 20px;
 }
 
-@media only screen and (max-width: 750px) {
+@media (max-width: 750px) {
   .projects-page {
     margin-left: 0;
     padding-top: 20%;
@@ -54,7 +53,7 @@
   }
   
 }
-@media only screen and (max-width: 300px) {
+@media (max-width: 300px) {
   .projects {
     margin-left:-8px;
   }

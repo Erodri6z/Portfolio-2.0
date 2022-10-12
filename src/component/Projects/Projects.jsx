@@ -1,4 +1,4 @@
-import '../../styles/project.css'
+import '../../styles/project.scss'
 import campFire from '../../assets/homepage.png'
 import skillTree from '../../assets/SkillTree.png'
 import ticTacToe from '../../assets/ttt.png'
