@@ -13,6 +13,10 @@ ul {
   position: fixed;
   overflow: auto;
   border: solid #000000 2px;
+  animation: navEnter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#nav:hover{
 }
 
 li {
@@ -64,6 +68,17 @@ li {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes navEnter{
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+  100%{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
