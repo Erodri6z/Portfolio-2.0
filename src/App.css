@@ -38,8 +38,8 @@ body{
   --dark-md: none;
   color: var(--text-color);
   background-image: var(--body-bg);
-
   font-family: 'Luxurious Roman', cursive;
+  background-size: 100% 150%;
 }
 
 body.dark{
