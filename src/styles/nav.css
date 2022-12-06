@@ -16,8 +16,6 @@ ul {
   animation: navEnter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-#nav:hover{
-}
 
 li {
   margin-top: 50px;
