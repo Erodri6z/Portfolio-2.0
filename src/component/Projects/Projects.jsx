@@ -13,7 +13,7 @@ const Projects = () => {
       description: 'Fully coded in javascript, CSS, and HTML. Built a minimal Tic-Tac-Toe browser game. Learned the basics of app logic as well as app deployment'
     },{
       title: "Skill-Tree",
-      deployment: 'https://erodri6z-skill-tree.herokuapp.com/',
+      deployment: 'https://skilltree.fly.dev',
       image: skillTree,
       github: 'https://github.com/Erodri6z/Skill-Tree',
       description: 'This was an app meant to gather your skills and share them with others. Used full MEN stack, HTML, CSS, JavaScript, GoogleAuth, and EJS. This app helped me learn about GoogleAuth, ERDs, and Heroku deployment'
