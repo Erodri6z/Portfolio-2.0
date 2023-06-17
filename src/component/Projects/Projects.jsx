@@ -3,6 +3,7 @@ import campFire from '../../assets/homepage.png'
 import skillTree from '../../assets/SkillTree.png'
 import ticTacToe from '../../assets/ttt.png'
 import strangerDrinks from '../../assets/strangerdrinks.png'
+import pocketGeeks from '../../assets/PocketGeeks.png'
 
 const Projects = () => {
   const projectData = [{
@@ -29,6 +30,12 @@ const Projects = () => {
       image: strangerDrinks,
       github: 'https://github.com/psison92/stranger-drinks-front-end/issues',
       description: 'It’s a “Stranger Things”  themed app to be able to share drink ideas and recipies. An MERN stack app built in collaboration with 3 other teammates. Used full MERN stack, HTML, CSS, and Javascript. This app helped me learn React.js, JWT authentication, and Github group workflow'
+    },{
+      title: "Pocket Geeks",
+      deployment: 'https://pocketgeeks.netlify.app',
+      image: pocketGeeks,
+      github: 'https://github.com/Erodri6z/Tech-Helper',
+      description: 'A Solo MERN stack app design to be a forum to help none tech savy people ask and get their phone related questions.'
     }
   ]
   return(
