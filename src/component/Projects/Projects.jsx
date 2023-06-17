@@ -36,6 +36,12 @@ const Projects = () => {
       image: pocketGeeks,
       github: 'https://github.com/Erodri6z/Tech-Helper',
       description: 'A Solo MERN stack app design to be a forum to help none tech savy people ask and get their phone related questions.'
+    }, {
+      title: "Unlimited Moving And Storage",
+      deployment: '',
+      image: '',
+      github: '',
+      description: 'A solo pro bono freelance website done for a moving company'
     }
   ]
   return(
