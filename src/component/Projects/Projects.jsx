@@ -4,6 +4,7 @@ import skillTree from '../../assets/SkillTree.png'
 import ticTacToe from '../../assets/ttt.png'
 import strangerDrinks from '../../assets/strangerdrinks.png'
 import pocketGeeks from '../../assets/PocketGeeks.png'
+import unlimitedMovingAndStorage from '../../assets/unlimitedMoving.png'
 
 const Projects = () => {
   const projectData = [{
@@ -38,10 +39,10 @@ const Projects = () => {
       description: 'A Solo MERN stack app design to be a forum to help none tech savy people ask and get their phone related questions.'
     }, {
       title: "Unlimited Moving And Storage",
-      deployment: '',
-      image: '',
-      github: '',
-      description: 'A solo pro bono freelance website done for a moving company'
+      deployment: 'https://unlimited-moving-and-storage.netlify.app/',
+      image: unlimitedMovingAndStorage,
+      github: 'https://github.com/Erodri6z/Unlimited-Moving-And-Storage',
+      description: 'A solo pro-bono freelance website done for a moving company'
     }
   ]
   return(
