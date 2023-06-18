@@ -36,13 +36,13 @@ const Projects = () => {
       deployment: 'https://pocketgeeks.netlify.app',
       image: pocketGeeks,
       github: 'https://github.com/Erodri6z/Tech-Helper',
-      description: 'A Solo MERN stack app design to be a forum to help none tech savy people ask and get their phone related questions.'
+      description: 'This is a solo MERN stack application designed to function as a forum, providing assistance to individuals who are not well-versed in technology. Its primary purpose is to enable non-tech-savvy users to ask questions about their mobile phones and receive relevant answers.'
     }, {
       title: "Unlimited Moving And Storage",
       deployment: 'https://unlimited-moving-and-storage.netlify.app/',
       image: unlimitedMovingAndStorage,
       github: 'https://github.com/Erodri6z/Unlimited-Moving-And-Storage',
-      description: 'A solo pro-bono freelance website done for a moving company'
+      description: 'A solo freelance web development job done for a moving company. This was an unpaid consulting project where I developed a react static app, focusing on creating a modern and visually appealing design while replicating an existing  design as a refrence, ensuring all features were included.'
     }
   ]
   return(
