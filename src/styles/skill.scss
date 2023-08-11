@@ -37,3 +37,14 @@
     grid-template-rows: min-content;
   }
 }
+
+@media (max-width: 300px) {
+  .icons{
+    // margin-top: 10%;
+    text-align: left;
+    justify-content: center;
+    grid-template-columns: repeat(1, 30vmin);
+    grid-template-rows:repeat(19, 12vmin) ;
+  }
+
+}
