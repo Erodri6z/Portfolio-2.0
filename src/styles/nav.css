@@ -80,6 +80,19 @@ li {
   }
 }
 
+@keyframes navEnterMobile {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   ul {
     display: flex;
@@ -94,5 +107,6 @@ li {
     z-index: 1;
     padding-left: 10%;
     padding-bottom: 8px;
+    animation: navEnterMobile 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; ;
   }
 }
