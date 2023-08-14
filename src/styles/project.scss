@@ -15,7 +15,7 @@
 .projects{
   margin-left: 5%;
   display: grid;
-  grid-template-columns: repeat(3, 60vmin);
+  grid-template-columns: repeat(3, 50vmin);
   grid-gap: 20px;
   img {
     min-height: 155px;
@@ -43,9 +43,10 @@
     padding-left: 0px;
   }
   .projects {
-    margin-right: 12%;
-    margin-left: 11%;
-    grid-template-columns: repeat(1,3vmin);
+    // margin-right: 12%;
+    margin-left: 15%;
+    justify-content: left;
+    grid-template-columns: repeat(1, 0vmin);
     text-align: center;
   }
   .card{
@@ -67,8 +68,10 @@
 
 @media (min-width: 750px) and (max-width: 1100px){
   .projects {
-    margin-left: 100px;
-    grid-template-columns: repeat(2,60vmin);
+    margin-left: 50px;
+    grid-template-columns: repeat(2,50vmin);
   }
 }
+
+
 
