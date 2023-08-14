@@ -1,0 +1,46 @@
+.skill-page {
+  margin-left: 13%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  height: 39rem;
+}
+.skill-page h1 {
+  font-weight: 400;
+  padding-left: 12px;
+  padding-top: 10%;
+}
+
+.icons {
+  padding-left: 12px;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 10vmin);
+  grid-template-rows: repeat(3, 10vmin);
+  grid-column-gap: 12vmin;
+}
+
+@media (max-width: 750px) {
+  .skill-page {
+    margin-left: 0;
+    text-align: center;
+    padding-top: 20%;
+  }
+  .icons {
+    margin-top: 50px;
+    padding-left: 0px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 30vmin);
+    grid-template-rows: repeat(9, 10vmin);
+  }
+}
+@media (max-width: 300px) {
+  .icons {
+    text-align: left;
+    justify-content: center;
+    grid-template-columns: repeat(1, 30vmin);
+    grid-template-rows: repeat(19, 12vmin);
+  }
+}/*# sourceMappingURL=skill.css.map */

@@ -1,0 +1,51 @@
+.landing-page {
+  margin-left: 13%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  height: 39rem;
+}
+
+#landing-title {
+  padding-top: 15%;
+  padding-left: 12px;
+  font-weight: 400;
+}
+
+.title-role {
+  padding-left: 12px;
+}
+
+.title-animation {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+#landing-text {
+  padding-left: 12px;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 750px) {
+  .landing-page {
+    margin-left: 0;
+    padding-top: 10%;
+    text-align: center;
+  }
+  #landing-title {
+    padding-left: 0px;
+  }
+  #landing-text {
+    padding-left: 0px;
+  }
+}/*# sourceMappingURL=landing.css.map */

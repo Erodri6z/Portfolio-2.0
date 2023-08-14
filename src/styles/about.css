@@ -1,15 +1,11 @@
 .about-page {
   margin-left: 13%;
   opacity: 1;
-  -webkit-animation-name: fadeInOpacity;
-          animation-name: fadeInOpacity;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  height: 41.1rem;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  height: 39rem;
 }
 .about-page h1 {
   font-weight: 400;
@@ -22,7 +18,7 @@
   padding-left: 12px;
 }
 
-@media only screen and (max-width: 750px) {
+@media (max-width: 750px) {
   .about-page {
     margin-left: 0px;
   }
