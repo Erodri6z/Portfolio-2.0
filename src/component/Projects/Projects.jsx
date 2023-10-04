@@ -5,6 +5,7 @@ import ticTacToe from '../../assets/ttt.png'
 import strangerDrinks from '../../assets/strangerdrinks.png'
 import pocketGeeks from '../../assets/PocketGeeks.png'
 import unlimitedMovingAndStorage from '../../assets/unlimitedMoving.png'
+import gloomySpirits from './../../assets/gloomyspirits.png'
 
 const Projects = () => {
   const projectData = [{
@@ -43,6 +44,12 @@ const Projects = () => {
       image: unlimitedMovingAndStorage,
       github: 'https://github.com/Erodri6z/Unlimited-Moving-And-Storage',
       description: 'A solo freelance web development job done for a moving company. This was an unpaid consulting project where I developed a react static app, focusing on creating a modern and visually appealing design while replicating an existing  design as a refrence, ensuring all features were included.'
+    }, {
+      title: "Glommy Spirits",
+      deployment: "https://gloomyspirits.netlify.app/",
+      image: gloomySpirits,
+      github: "https://github.com/Erodri6z/Drink-Assist",
+      description: "This Gloomy Spirits app is your ultimate companion for crafting the perfect cocktails. Powered by TypeScript and React, it allows you to effortlessly search for cocktail recipes by name or ingredients. With detailed instructions and a user-friendly design, it's a go-to resource for both novice mixologists and seasoned cocktail enthusiasts, ensuring that you can create impressive drinks for any occasion."
     }
   ]
   return(
