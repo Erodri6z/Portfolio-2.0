@@ -45,7 +45,7 @@ const Projects = () => {
       github: 'https://github.com/Erodri6z/Unlimited-Moving-And-Storage',
       description: 'A solo freelance web development job done for a moving company. This was an unpaid consulting project where I developed a react static app, focusing on creating a modern and visually appealing design while replicating an existing  design as a refrence, ensuring all features were included.'
     }, {
-      title: "Glommy Spirits",
+      title: "Gloomy Spirits",
       deployment: "https://gloomyspirits.netlify.app/",
       image: gloomySpirits,
       github: "https://github.com/Erodri6z/Drink-Assist",
