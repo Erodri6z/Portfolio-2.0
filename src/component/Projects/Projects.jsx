@@ -53,7 +53,7 @@ const Projects = () => {
       description: "This Gloomy Spirits app is your ultimate companion for crafting the perfect cocktails. Powered by TypeScript and React, it allows you to effortlessly search for cocktail recipes by name or ingredients. With detailed instructions and a user-friendly design, it's a go-to resource for both novice mixologists and seasoned cocktail enthusiasts, ensuring that you can create impressive drinks for any occasion."
     }, {
       title:"Sale Counter",
-      deployment:"https://sale-counter.netlify.app",
+      deployment:"https://salecounter.netlify.app",
       image: saleCounter,
       github: "https://github.com/Erodri6z/Sale-Counter-Front-End",
       description: "The Mobile Sales Tracker App, built with React.js, is specifically designed to assist mobile representatives in accurately tracking their sales activities. The application not only enables representatives to input and manage sales data efficiently but also provides visual graphs that accurately depict the number of sales completed in each respective category"
