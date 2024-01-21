@@ -4,7 +4,7 @@ import skillTree from '../../assets/SkillTree.png'
 import ticTacToe from '../../assets/ttt.png'
 import strangerDrinks from '../../assets/strangerdrinks.png'
 import pocketGeeks from '../../assets/PocketGeeks.png'
-import unlimitedMovingAndStorage from '../../assets/unlimitedMoving.png'
+import unlimitedMovingAndStorage from '../../assets/UMAS.png'
 import gloomySpirits from './../../assets/gloomyspirits.png'
 import saleCounter from './../../assets/Sale-counter.png'
 
