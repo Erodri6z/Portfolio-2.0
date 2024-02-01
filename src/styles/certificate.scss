@@ -23,3 +23,35 @@
     }
   }
 }
+
+
+@media (max-width: 750px) {
+  .certifications{
+    padding-top: 35px;
+    margin-right: 20%;
+    .title{
+      padding-left: 35%;
+    }
+    .certificates{
+      margin-left: 10%;
+      .certs{
+        width: 300px;
+        max-height: 200px; 
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .certifications{
+    padding-top: 35px;
+    margin-right: 40%;
+    .certificates{
+      // margin-left: 10%;
+      .certs{
+        width: 220px;
+        max-height: 130px; 
+      }
+    }
+  }
+}
