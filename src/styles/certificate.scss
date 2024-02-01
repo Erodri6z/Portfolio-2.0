@@ -11,4 +11,15 @@
     padding-left: 40%;
     padding-top: 50px;
   }
+  .certificates{
+    margin-top: 30px;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: repeat(1, 50vmin);
+    grid-gap: 20px;
+    .certs{
+      width: 400px;
+      max-height: 280px; 
+    }
+  }
 }

@@ -14,8 +14,10 @@ const Certificates = () => {
   return (
     <div className="certifications">
       <h1 className='title'>Certificates</h1>
-      <div>
-        
+      <div className='certificates'>
+        {certificates.map(c => 
+        <img src={c.image} alt={c.title} className='certs' key={c.title}/>
+        )}
       </div>
     </div>
   )
