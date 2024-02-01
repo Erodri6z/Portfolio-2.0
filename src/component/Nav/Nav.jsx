@@ -49,7 +49,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink className="nav-item" to="/#">
-              <span className="material-symbols-outlined"></span>
+              <span className="material-symbols-outlined">school</span>
             </NavLink>
           </li>
           <li>
