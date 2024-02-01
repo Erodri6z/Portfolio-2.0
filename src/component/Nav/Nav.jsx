@@ -48,6 +48,11 @@ const Nav = () => {
             </NavLink>
           </li>
           <li>
+            <NavLink className="nav-item" to="/#">
+              <span className="material-symbols-outlined"></span>
+            </NavLink>
+          </li>
+          <li>
             <button id="toggle-btn" onClick={toggleMode} >
               <span id='sun'className="material-symbols-outlined">wb_sunny</span>
               <span id='moon'className="material-symbols-outlined">dark_mode</span>
