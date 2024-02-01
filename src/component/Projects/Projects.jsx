@@ -1,12 +1,12 @@
 import '../../styles/project.scss'
-import campFire from '../../assets/homepage.png'
-import skillTree from '../../assets/SkillTree.png'
-import ticTacToe from '../../assets/ttt.png'
-import strangerDrinks from '../../assets/strangerdrinks.png'
-import pocketGeeks from '../../assets/PocketGeeks.png'
-import unlimitedMovingAndStorage from '../../assets/UMAS.png'
-import gloomySpirits from './../../assets/gloomyspirits.png'
-import saleCounter from './../../assets/Sale-counter.png'
+import campFire from '../../assets/ProjectAssets/homepage.png'
+import skillTree from '../../assets/ProjectAssets/SkillTree.png'
+import ticTacToe from '../../assets/ProjectAssets/ttt.png'
+import strangerDrinks from '../../assets/ProjectAssets/strangerdrinks.png'
+import pocketGeeks from '../../assets/ProjectAssets/PocketGeeks.png'
+import unlimitedMovingAndStorage from '../../assets/ProjectAssets/UMAS.png'
+import gloomySpirits from './../../assets/ProjectAssets/gloomyspirits.png'
+import saleCounter from './../../assets/ProjectAssets/Sale-counter.png'
 
 const Projects = () => {
   const projectData = [{

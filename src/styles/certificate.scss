@@ -1,0 +1,14 @@
+.certifications{
+  margin-left: 10%;
+  opacity: 1;
+  height: 39rem;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  .title{
+    font-weight: 400;
+    padding-left: 40%;
+    padding-top: 50px;
+  }
+}

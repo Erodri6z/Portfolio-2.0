@@ -1,6 +1,16 @@
-const Certificates =  () => {
+import '../../styles/certificate.scss'
+
+
+const Certificates = () => {
+
+
   return (
-    <h1> this is where the certificates will be</h1>
+    <div className="certifications">
+      <h1 className='title'>Certificates</h1>
+      <div>
+        document
+      </div>
+    </div>
   )
 }
 
