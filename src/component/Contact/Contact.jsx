@@ -16,7 +16,7 @@ const Contact = () => {
     icon: <i className="bi bi-linkedin"></i>,
   },{
     name: 'Resume',
-    url: 'https://docs.google.com/document/d/1snsjo8j0Ki4NwnXIhzWgjBi6TV_tJB92R0paR1VpIJY/edit?usp=sharing',
+    url: 'https://docs.google.com/document/d/1FMWvoCcf3fbe7SIkYS6ZjZof-SOq73A45zsNtsLfDTE/edit?usp=sharing',
     icon: <i className="bi bi-file-earmark-person-fill"></i>,
   }]
   return(
