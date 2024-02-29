@@ -39,7 +39,7 @@ body{
   color: var(--text-color);
   background-image: var(--body-bg);
   font-family: 'Luxurious Roman', cursive;
-  background-size: 100% 150%;
+  background-size: 100% 505%;
 }
 
 body.dark{
