@@ -31,8 +31,9 @@
       font-size: 60px;
       color: white;
       text-decoration: none;
+      animation: iconsShrink 0.2s ease-in-out;
       &:hover {
-        animation: iconsGrow 0.2s ease-in both;
+        animation: iconsGrow 0.2s ease-in-out;
         font-size: 100px;
         color: #000000; 
       }
@@ -46,6 +47,15 @@
   }
   100% {
     font-size: 100px;
+  }
+}
+
+@keyframes iconsShrink {
+  0% {
+    font-size: 100px;
+  }
+  100% {
+    font-size: 60px;
   }
 }
 

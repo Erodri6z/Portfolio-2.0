@@ -28,7 +28,7 @@
 .card {
   border: solid black 1px;
   margin-left: 10px;
-  background-color: lightslategray;
+  background-color: rgba(109, 126, 143);
 }
 
 .btn {
