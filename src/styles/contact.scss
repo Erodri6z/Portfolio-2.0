@@ -34,12 +34,14 @@
       animation: iconsShrink 0.2s ease-in-out;
       &:hover {
         animation: iconsGrow 0.2s ease-in-out;
+        text-shadow:0 0 22px #ffffff;
         font-size: 100px;
         color: #000000; 
       }
     }
   }
 }
+
 
 @keyframes iconsGrow {
   0% {
