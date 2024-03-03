@@ -31,7 +31,7 @@
   }
 }
 body{
-  --body-bg: linear-gradient(to bottom, #71a6a8, #68a4a7, #5fa3a5, #55a1a4, #4a9fa3, #3b949d, #2b8897, #1a7d90, #0e6680, #0e4f6d, #113a58, #122542);
+  --body-bg: linear-gradient(to right bottom, #71a6a8, #4f8491, #336379, #1f435e, #122542);;
   --nav-bg: rgb(112, 112, 112);
   --text-color: rgb(0, 0, 0);
   --light-md: flex;
