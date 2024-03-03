@@ -6,7 +6,7 @@ ul {
   list-style-type: none;
   margin: -22px 0 0 0;
   padding: 0;
-  width: 100px;
+  width:100px;
   min-width: fit-content;
   background-color: var(--nav-bg);
   height: 110%; 
@@ -14,6 +14,11 @@ ul {
   overflow: auto;
   border: solid #000000 2px;
   animation: navEnter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#nav :hover {
+  width: 200px;
+  animation: navExpand 0.5s both;
 }
 
 
@@ -66,6 +71,16 @@ li {
   }
   100% {
     opacity: 1;
+  }
+}
+
+
+@keyframes navExpand {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 200px;
   }
 }
 
