@@ -2,6 +2,8 @@ ul {
   list-style: none;
 }
 
+
+
 #nav {
   list-style-type: none;
   margin: -22px 0 0 0;
@@ -13,13 +15,22 @@ ul {
   position: fixed;
   overflow: auto;
   border: solid #000000 2px;
-  animation: navEnter 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
 
-#nav :hover {
+
+.nav:hover{
   width: 200px;
   animation: navExpand 0.5s both;
 }
+
+.nav:not(:hover){
+  animation: navShrink 0.5s both;
+}
+
+/* #nav ::after {
+
+} */
 
 
 li {
@@ -81,6 +92,15 @@ li {
   }
   100% {
     width: 200px;
+  }
+}
+
+@keyframes navShrink {
+  0% {
+    width: 200px;
+  }
+  100% {
+    width: 100px;
   }
 }
 

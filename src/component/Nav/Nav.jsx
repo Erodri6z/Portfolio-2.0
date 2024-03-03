@@ -2,10 +2,13 @@ import { NavLink } from "react-router-dom"
 import '../../styles/nav.css'
 
 const Nav = () => {
+
+
   const toggleMode = () => {
     const bodyMode = document.querySelector('body')
     bodyMode.classList.toggle('dark')
   }
+
   const getTime = () => {
     const time = new Date().getHours()
     const mode = document.querySelector('body')
@@ -17,10 +20,11 @@ const Nav = () => {
       mode.classList.remove('dark')
     }
   }
+
   getTime()
   return ( 
     <nav>
-      <div id="nav">
+      <div id="nav" className="nav">
         <ul>
           <li>
             <NavLink className="nav-item" to="/" >
