@@ -15,7 +15,7 @@ ul {
   position: fixed;
   overflow: auto;
   border: solid #000000 2px;
-
+  overflow-y: hidden;
 }
 
 
@@ -27,6 +27,18 @@ ul {
 .nav:not(:hover){
   animation: navShrink 0.5s both;
 }
+
+.tag{
+  display: flex;
+  position: absolute;
+  padding-left: 70px;
+  margin-top: -31px;
+}
+
+.li-item{
+  display: flex;
+}
+
 
 /* #nav ::after {
 
@@ -91,7 +103,7 @@ li {
     width: 100px;
   }
   100% {
-    width: 200px;
+    width: 240px;
   }
 }
 

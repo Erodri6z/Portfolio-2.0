@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom"
 import '../../styles/nav.css'
+import { useState } from "react"
 
 const Nav = () => {
 
+  const [isHovered, setIsHovered] = useState(false)
 
   const toggleMode = () => {
     const bodyMode = document.querySelector('body')
@@ -26,34 +28,41 @@ const Nav = () => {
     <nav>
       <div id="nav" className="nav">
         <ul>
-          <li>
+          <li className="li-item">   
             <NavLink className="nav-item" to="/" >
               <span className="material-symbols-outlined">home</span>
+            <h4 className="tag">Home</h4>
             </NavLink>
           </li>
+
           <li>
             <NavLink className="nav-item" to="/Info" >
               <span className="material-symbols-outlined">info</span>
+            <h4 className="tag">About</h4>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Skill">
               <span className="material-symbols-outlined">code</span>
+            <h4 className="tag">Skills</h4>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Projects">
               <span className="material-symbols-outlined">web</span>
+            <h4 className="tag">Projects</h4>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Contact">
               <span className="material-symbols-outlined">contact_phone</span>
+            <h4 className="tag">Contact</h4>
             </NavLink>
           </li>
           <li>
             <NavLink className="nav-item" to="/Certificates">
               <span className="material-symbols-outlined">school</span>
+            <h4 className="tag">Certificates</h4>
             </NavLink>
           </li>
           <li>
