@@ -143,17 +143,32 @@ li {
 @media only screen and (max-width: 750px) {
   ul {
     display: flex;
-    margin: 0 10px 5px 0;
-    padding: 0 10px 0 10px;
+    margin: 0;
+    padding: 0;
     justify-content: space-between;
+    list-style-type: none; 
   }
-
+  
   #nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start;
     height: fit-content;
     width: 100%;
     z-index: 1;
-    padding-left: 10%;
-    padding-bottom: 8px;
-    animation: navEnterMobile 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; ;
+    padding-bottom: 3px;
+    animation: navEnterMobile 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tag {
+    display: none;
+    position: none;
+  }
+  
 }

@@ -34,38 +34,37 @@ const Nav = () => {
             <h4 className="tag">Home</h4>
             </NavLink>
           </li>
-
-          <li>
+          <li className="li-item">
             <NavLink className="nav-item" to="/Info" >
               <span className="material-symbols-outlined">info</span>
             <h4 className="tag">About</h4>
             </NavLink>
           </li>
-          <li>
+          <li className="li-item">
             <NavLink className="nav-item" to="/Skill">
               <span className="material-symbols-outlined">code</span>
             <h4 className="tag">Skills</h4>
             </NavLink>
           </li>
-          <li>
+          <li className="li-item">
             <NavLink className="nav-item" to="/Projects">
               <span className="material-symbols-outlined">web</span>
             <h4 className="tag">Projects</h4>
             </NavLink>
           </li>
-          <li>
+          <li className="li-item">
             <NavLink className="nav-item" to="/Contact">
               <span className="material-symbols-outlined">contact_phone</span>
             <h4 className="tag">Contact</h4>
             </NavLink>
           </li>
-          <li>
+          <li className="li-item">
             <NavLink className="nav-item" to="/Certificates">
               <span className="material-symbols-outlined">school</span>
             <h4 className="tag">Certificates</h4>
             </NavLink>
           </li>
-          <li>
+          <li className="li-item">
             <button id="toggle-btn" onClick={toggleMode} >
               <span id='sun'className="material-symbols-outlined">wb_sunny</span>
               <span id='moon'className="material-symbols-outlined">dark_mode</span>
