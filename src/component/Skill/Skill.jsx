@@ -5,99 +5,99 @@ const Skill = () => {
   const skills = [
     {
       name: "html",
-      icon: "https://img.shields.io/badge/-HTML5-000000?style=for-the-badge&logo=HTML5",
+      icon: "https://img.icons8.com/color/48/html-5--v1.png",
       id: "html"
     }, {
       name: "css",
-      icon: "https://img.shields.io/badge/-CSS-000000?style=for-the-badge&logo=CSS3&logoColor=1572B6",
+      icon: "https://img.icons8.com/color/48/css3.png",
       id: "css"
     }, {
       name: "javascript",
-      icon: "https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=Javascript&logoColor=)",
+      icon: "https://img.icons8.com/color/48/javascript--v1.png",
       id: "javascript"
     }, {
       name: "react",
-      icon: "https://img.shields.io/badge/-React.js-000000?style=for-the-badge&logo=react",
+      icon: "https://img.icons8.com/plasticine/48/react.png",
       id: "react"
     }, {
       name: "python",
-      icon: "https://img.shields.io/badge/-Python3-000000?style=for-the-badge&logo=python",
+      icon: "https://img.icons8.com/color/48/python--v1.png",
       id: "python"
     }, {
       name: "express",
-      icon: "https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express",
+      icon: "https://img.icons8.com/fluency/48/express-js.png",
       id: "express"
     }, {
       name: "mongodb",
-      icon: "https://img.shields.io/badge/-MongoDB-000000?style=for-the-badge&logo=mongodb",
+      icon: "https://img.icons8.com/color/48/mongodb.png",
       id: "mongo"
     }, {
       name: "github",
-      icon: "https://img.shields.io/badge/-Github-000000?style=for-the-badge&logo=github",
+      icon: "https://img.icons8.com/fluency/48/github.png",
       id: "github"
     }, {
       name: "node",
-      icon: "https://img.shields.io/badge/-Node.js-000000?style=for-the-badge&logo=node.js",
+      icon: "https://img.icons8.com/fluency/48/node-js.png",
       id: "node"
     }, {
       name: "postgreSQL",
-      icon: "https://img.shields.io/badge/-postgreSQL-000000?style=for-the-badge&logo=postgreSQL",
+      icon: "https://img.icons8.com/color/48/postgreesql.png",
       id: "postgreSQL"
     }, {
       name: "django",
-      icon: "https://img.shields.io/badge/-django-000000?style=for-the-badge&logo=django",
+      icon: "https://img.icons8.com/color/48/django.png",
       id: "django"
     }, {
       name: "docker",
-      icon: "https://img.shields.io/badge/-docker-000000?style=for-the-badge&logo=docker",
+      icon: "https://img.icons8.com/fluency/48/docker.png",
       id: "docker"
     }, {
       name: "netlify",
-      icon: "https://img.shields.io/badge/-Netlify-000000?style=for-the-badge&logo=netlify",
+      icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
       id: "netlify"
     }, {
       name: "heroku",
-      icon: "https://img.shields.io/badge/-heroku-000000?style=for-the-badge&logo=heroku",
+      icon: "https://img.icons8.com/color/48/heroku.png",
       id: "heroku"
     }, {
       name: "bootstrap",
-      icon: "https://img.shields.io/badge/-bootstap-000000?style=for-the-badge&logo=bootstrap",
+      icon: "https://img.icons8.com/color/48/bootstrap--v2.png",
       id: "bootsrap"
     }, {
       name: "git",
-      icon: "https://img.shields.io/badge/-git-000000?style=for-the-badge&logo=git",
+      icon: "https://img.icons8.com/color/48/git.png",
       id: "git"
     }, {
       name: "sass",
-      icon: "https://img.shields.io/badge/-sass-000000?style=for-the-badge&logo=sass",
+      icon: "https://img.icons8.com/color/48/sass.png",
       id: "sass"
     }, {
       name: "mySQL",
-      icon: "https://img.shields.io/badge/-mysql-000000?style=for-the-badge&logo=mysql",
+      icon: "https://img.icons8.com/ios-filled/50/mysql-logo.png",
       id: "mySQL"
     }, {
       name: "ruby",
-      icon: "https://img.shields.io/badge/-ruby-000000?style=for-the-badge&logo=ruby",
+      icon: "https://img.icons8.com/color/48/ruby-programming-language.png",
       id: "ruby"
     }, {
-      name: "sequelize",
-      icon: "https://img.shields.io/badge/-sequelize-000000?style=for-the-badge&logo=sequelize",
-      id: "sequelize"
+      name: "redux",
+      icon: "https://img.icons8.com/color/48/redux.png",
+      id: "redux"
     }, {
       name: "next",
-      icon: "https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js",
+      icon: "https://img.icons8.com/color/48/nextjs.png",
       id: "next"
     }, {
       name: "azure",
-      icon: "https://img.shields.io/badge/-azure-000000?style=for-the-badge&logo=microsoftazure",
+      icon: "https://img.icons8.com/fluency/48/azure-1.png",
       id: "azure"
     }, {
       name: "aws",
-      icon: "https://img.shields.io/badge/-aws-000000?style=for-the-badge&logo=amazon",
+      icon: "https://img.icons8.com/color/48/amazon-web-services.png",
       id: "aws"
     }, {
       name: "typescript",
-      icon: "https://img.shields.io/badge/-typescript-000000?style=for-the-badge&logo=typescript",
+      icon: "https://img.icons8.com/color/48/typescript.png",
       id: "typescript"
     }
   ]
