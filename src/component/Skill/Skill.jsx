@@ -101,6 +101,7 @@ const Skill = () => {
       id: "typescript"
     }
   ]
+
   return(
     <div className="skill-page">
       <div id='skill-container'>
@@ -108,7 +109,7 @@ const Skill = () => {
         <div className="icons">
           {skills.map((s) => 
             <div key={s.name}>
-              <img src={s.icon} alt="skill" id={s.id} />
+              <img src={s.icon} alt="skill" id={s.id} className='skillz'/>
             </div>
           )}
       </div>

@@ -22,6 +22,10 @@
   grid-column-gap: 12vmin;
 }
 
+.skillz{
+  filter: drop-shadow(0 0 22px white);
+}
+
 @media (max-width: 750px) {
   .skill-page {
     margin-left: 0;

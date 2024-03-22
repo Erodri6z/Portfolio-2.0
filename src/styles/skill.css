@@ -20,6 +20,8 @@
   grid-template-columns: repeat(5, 10vmin);
   grid-template-rows: repeat(3, 10vmin);
   grid-column-gap: 12vmin;
+  box-shadow: 0 0 22px white;
+
 }
 
 @media (max-width: 750px) {
