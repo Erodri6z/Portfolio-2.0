@@ -15,11 +15,11 @@ const Landing = () => {
     setShouldAnimate(true)
     setTimeout(() => {
       setShouldAnimate(false)
-    }, 1000)
+    }, 6000)
   }
   
   useEffect(() => {
-    const interval = setInterval(cycleTitles, 2000)
+    const interval = setInterval(cycleTitles, 6005)
     return () => {
       clearInterval(interval)
     }
@@ -29,7 +29,9 @@ const Landing = () => {
     <div className="landing-page">
       <div>
         <h1 id='landing-title'>Hi,<br /> I'm Erik Rodriguez,</h1>
-        <h2 className={`title-role ${shouldAnimate? `title-animation` : ``}`}>{titles[currentIndex]}</h2>
+        <div className='text-container'>
+          <span className={`title-role ${shouldAnimate? `title-animation` : ``}`}>{titles[currentIndex]}</span>
+        </div>
         <p id='landing-text'>Technology is always evolving, let's perfect it!</p>
       </div>
     </div>
