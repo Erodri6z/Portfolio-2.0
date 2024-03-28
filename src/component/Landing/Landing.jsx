@@ -6,7 +6,7 @@ import React, { useEffect, useState} from 'react'
 
 const Landing = () => {
   
-  const titles = [ "Software Engineer", "Front-End Engineer", "Back-end Engineer", "Full-Stack Developer", "Web Developer", "Web Designer", "Technical Analyst", "Integration Developer", "Development Tester"]
+  const titles = [ "Development Tester", "Software Engineer", "Front-End Engineer", "Back-end Engineer", "Full-Stack Developer", "Web Developer", "Web Designer", "Technical Analyst", "Integration Developer", ]
   const [currentIndex, setcurrentIndex] = useState(0)
   const [shouldAnimate, setShouldAnimate] = useState(false)
 
