@@ -76,12 +76,18 @@
     padding-top: 10%;
     text-align: center;
   }
+  .text-container{
+    margin-left: 20px;
+    width: 20rem;
+  
+  }
 
   #landing-title{
-    padding-left: 30rem;
+    padding-left: 0rem;
+    margin: auto;
   }
 
   #landing-text {
-    padding-left: 30rem;
+    padding-left: 1rem;
   }
 }
