@@ -16,7 +16,7 @@
 
 .title-role{
   padding-left: 12px;
-  display: inline-block;
+  display: none;
   border-right: 2px solid black;
 }
 
@@ -29,12 +29,14 @@
 }
 
 .title-animation{
+  display: inline-block;
   animation: typing 2s steps(20) forwards, deleting 2s steps(20) 2.19s forwards;
   white-space: nowrap;
   overflow: hidden;
 }
 
 #landing-text{
+  
   padding-left: 12px;
   font-style: italic;
   
