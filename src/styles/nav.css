@@ -5,6 +5,7 @@ ul {
 
 
 #nav {
+  z-index: 999;
   list-style-type: none;
   margin: -22px 0 0 0;
   padding: 0;
