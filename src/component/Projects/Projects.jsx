@@ -7,6 +7,7 @@ import pocketGeeks from '../../assets/ProjectAssets/PocketGeeks.png'
 import unlimitedMovingAndStorage from '../../assets/ProjectAssets/UMAS.png'
 import gloomySpirits from './../../assets/ProjectAssets/gloomyspirits.png'
 import saleCounter from './../../assets/ProjectAssets/Sale-counter.png'
+import franzHuerta from './../../assets/ProjectAssets/FranzHuetra.png'
 
 const Projects = () => {
   const projectData = [{
@@ -57,6 +58,12 @@ const Projects = () => {
       image: saleCounter,
       github: "https://github.com/Erodri6z/Sale-Counter-Front-End",
       description: "The Mobile Sales Tracker App, built with React.js, is specifically designed to assist mobile representatives in accurately tracking their sales activities. The application not only enables representatives to input and manage sales data efficiently but also provides visual graphs that accurately depict the number of sales completed in each respective category"
+    }, {
+      title:"Franz Huerta Inc, LLC",
+      deployment: "https://franzhuertainc.com",
+      image: franzHuerta,
+      github: 'https://github.com/Erodri6z/fh-inc',
+      description: 'Developed a responsive and visually appealing website for "Franz Huerta Inc" enhancing their online presence and customer engagement. Utilizing React.js for the front-end and Node.js with Express.js for the back-end, I created a dynamic and user-friendly interface. The project involved close collaboration with the client to understand their needs, followed by designing, developing, and deploying the website on Netlify.'
     }
   ]
   return(
